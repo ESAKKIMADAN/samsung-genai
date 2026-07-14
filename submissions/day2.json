@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Esakkimadan M.",
+  "github": "ESAKKIMADAN",
+  "lab1_scenario": "B",
+  "lab1_prompt": "Act as a Senior Market Intelligence Analyst for Samsung Mobile. Summarize the launch of a fictional competitor's (\"ZephyrFold X\") new foldable phone for a Samsung Product Manager. Context: The competitor just launched their 4th-generation foldable. It boasts a thinner chassis than our Galaxy Z Fold and a larger battery, but it notably lacks wireless charging and IP68 water/dust resistance. The PM needs a quick brief before an emergency strategy meeting. Constraints: Exactly 3 bullet points. No introductory or concluding fluff. Do not exceed 100 words in total. Must highlight at least one remaining Samsung advantage. Style/Tone: Boardroom-ready, objective, highly analytical, and concise. Output Format: A simple 3-bullet list.",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 0,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "The AI calculated 4200 - 850 = 3350 remaining, deducted 6% (201 units) for the hold, and added the 1150 restocked units to arrive at a final count of 4299 available units.",
+  "lab2_cot_prompt": "Samsung's distribution centre starts the day with 4,200 Galaxy Buds units. A morning shipment sends out 850 units. After that shipment, a quality hold is placed on 6% of the remaining stock. An afternoon restock then adds 1,150 new units, which are not subject to the hold. How many units are available for sale by end of day? Please think step-by-step, showing your math for each stage.",
+  "lab2_cot_output_summary": "By reasoning step-by-step, the AI explicitly showed the subtraction (3350), the exact hold calculation (201), the available remainder (3149), and the final addition of 1150 to confidently and transparently conclude 4299 available units.",
+  "better_approach": "Chain-of-Thought was more trustworthy",
+  "stretch_done": true,
+  "stretch_react_prompt": "Question: How many Galaxy Buds are available for sale by the end of the day? \nThought: Let me track the inventory changes sequentially. \nAction: Calculate initial minus shipment (4200 - 850 = 3350). \nThought: Now calculate the 6% hold on the remaining amount. \nAction: Calculate 0.06 * 3350 = 201 units on hold. \nThought: Calculate available units before restock. \nAction: 3350 - 201 = 3149. \nThought: Add the afternoon restock. \nAction: 3149 + 1150 = 4299. \nFinal Answer: 4299 units.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14"
+}
