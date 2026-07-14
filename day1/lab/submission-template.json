@@ -15,7 +15,7 @@
 
   "h1_case_2": {
     "h1_classification": "hallucination",
-    "h1_models_flagged": ["gemini-3.1"],
+    "h1_models_flagged": ["gemini 3.1"],
     "h1_evidence": "Gemini 3.1 answered by listing three different papers as though they collectively answered a question asking for one specific Samsung Research paper or technical report. It did not establish that any of these papers is the referenced source. It also presented the 2025 'Synergistic Effects of Knowledge Distillation and Structured Pruning for Self-Supervised Speech Models' as a Samsung Research publication without verifying that affiliation, and attributed knowledge distillation to the smartphone settings paper without confirming that this was an explicit technique described by the paper. The response therefore overstates certainty and includes unsupported claims instead of identifying a single verified source or acknowledging the ambiguity."
   },
 
