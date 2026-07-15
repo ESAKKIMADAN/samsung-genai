@@ -1,0 +1,20 @@
+{
+  "day": 3,
+  "student_name": "Esakkimadan M",
+  "github": "ESAKKIMADAN",
+  "ir_hallucination_done": true,
+  "ir_bias_done": true,
+  "ir_guardrail_builder_done": true,
+  "ir_battle_complete": true,
+  "ir_battle_blocked": 8,
+  "ir_battle_total": 8,
+  "rag_scenario": "Product Spec Question – Galaxy Book5 Pro RAM",
+  "rag_no_rag_summary": "Without the document, the model answered confidently from memory but was uncertain about the exact RAM configuration and included assumptions that were not verified.",
+  "rag_grounded_summary": "After providing the product specification document with the prompt 'Use ONLY the following information to answer,' the model gave the exact RAM specification from the document without adding extra claims.",
+  "rag_judgement": "RAG fixed a wrong No-RAG answer by grounding the response in the provided document and eliminating unsupported information.",
+  "stretch_done": false,
+  "stretch_notes": "Model used: llama3.2:1b",
+  "tasks_completed": 5,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-15"
+}

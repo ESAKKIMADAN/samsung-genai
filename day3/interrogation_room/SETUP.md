@@ -34,8 +34,8 @@ This app works with **any** chat model you already have pulled — it auto-detec
 
 1. In Command Prompt, type:
    ```
-   ollama pull llama3.2:1b
-   ```
+   
+   ```ollama pull llama3.2:1b
 2. Press Enter and wait — this downloads the model (a few minutes depending on WiFi). You'll see a progress bar.
 3. Verify it downloaded:
    ```
