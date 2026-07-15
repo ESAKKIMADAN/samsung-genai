@@ -14,7 +14,7 @@
   "rag_judgement": "RAG fixed a wrong No-RAG answer by grounding the response in the provided document and eliminating unsupported information.",
   "stretch_done": true,
   "stretch_notes": "Model used: llama3.2:1b",
-  "tasks_completed": 5,
+  "tasks_completed": 6,
   "tasks_total": 6,
   "submitted_at": "2026-07-15"
 }
