@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "",
+  "github": "",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "The chatbot fabricated a company policy with confidence, producing false information that users relied on."
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "Employee conversations containing sensitive client information were collected without users' knowledge or consent."
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Transparency",
+      "justification": "AI-generated content was presented as authentic, misleading the public and influencing financial markets."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "The hiring system indirectly discriminated against women through proxy variables despite not using gender explicitly."
+    },
+    {
+      "id": "E",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Human Oversight",
+      "justification": "The biased moderation pattern continued unchecked because no human monitored or intervened in the system's decisions."
+    },
+    {
+      "id": "F",
+      "failure_type": "Security Breach",
+      "principle": "Security",
+      "justification": "AI-enabled voice impersonation was exploited to bypass verification and fraudulently authorize a financial transfer."
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Air Canada",
+  "stretch_failure_type": "Hallucination",
+  "stretch_principle": "Reliability",
+  "stretch_notes": "An Air Canada customer service chatbot incorrectly told a passenger they could claim a bereavement fare after purchasing a ticket. The airline later denied the refund, but a tribunal ruled that it was responsible for the chatbot's inaccurate information. This is a hallucination because the AI invented a policy, and it primarily violated Reliability because users could not depend on the accuracy of its responses.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:19:45.718Z"
+}
