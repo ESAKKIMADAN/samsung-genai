@@ -48,5 +48,5 @@
   "stretch_notes": "An Air Canada customer service chatbot incorrectly told a passenger they could claim a bereavement fare after purchasing a ticket. The airline later denied the refund, but a tribunal ruled that it was responsible for the chatbot's inaccurate information. This is a hallucination because the AI invented a policy, and it primarily violated Reliability because users could not depend on the accuracy of its responses.",
   "tasks_completed": 6,
   "tasks_total": 6,
-  "submitted_at": "2026-07-16"
+  "submitted_at": "2026-07-16T06:25:57.543Z"
 }
